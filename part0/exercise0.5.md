@@ -19,5 +19,7 @@ sequenceDiagram
     BROWSER->>SERVER: GET https://studies.cs.helsinki.fi/favicon.ico
     SERVER-->>BROWSER: favicon.ico
 ```
+
 [Previous exercise](exercise0.4.md)
+
 [Next exercise](exercise0.6.md)
