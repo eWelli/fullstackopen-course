@@ -1,3 +1,6 @@
+# Single page app diagram - site https://studies.cs.helsinki.fi/exampleapp/spa
+
+
 ```mermaid
 sequenceDiagram
     BROWSER->>SERVER: GET https://studies.cs.helsinki.fi/exampleapp/spa

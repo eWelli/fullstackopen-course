@@ -1,3 +1,5 @@
+# New note on diagram - https://studies.cs.helsinki.fi/exampleapp/app
+
 ```mermaid
 sequenceDiagram
     BROWSER->>SERVER: POST request https://studies.cs.helsinki.fi/exampleapp/new_note

@@ -1,4 +1,6 @@
-Site is loaded like in exercise0.5
+
+# New note in Single page app diagram - site https://studies.cs.helsinki.fi/exampleapp/spa
+Site is loaded like in [exercise0.5](exercise0.5.md)
 
 ```mermaid
 sequenceDiagram
