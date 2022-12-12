@@ -1,4 +1,4 @@
-# New note on diagram - https://studies.cs.helsinki.fi/exampleapp/app
+# New note on diagram - site https://studies.cs.helsinki.fi/exampleapp/app
 
 ```mermaid
 sequenceDiagram

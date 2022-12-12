@@ -1,4 +1,4 @@
-# Single page app diagram - site https://studies.cs.helsinki.fi/exampleapp/spa
+## Single page app diagram - site https://studies.cs.helsinki.fi/exampleapp/spa
 
 
 ```mermaid
@@ -14,7 +14,7 @@ sequenceDiagram
     BROWSER->>SERVER: GET request https://studies.cs.helsinki.fi/exampleapp/data.json
     SERVER-->>BROWSER: Returns a list [... {...}]
     NOTE over SERVER: Continue spa.js exection
-    JS forEach loop
+    loop JS forEach
         BROWSER->>BROWSER:Loop though data.json elements and add them to html via javascript.
     end
     BROWSER->>SERVER: GET https://studies.cs.helsinki.fi/favicon.ico
