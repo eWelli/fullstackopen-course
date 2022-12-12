@@ -9,8 +9,7 @@ sequenceDiagram
     SERVER-->>BROWSER: main.css
     BROWSER->>SERVER: GET https://studies.cs.helsinki.fi/exampleapp/spa.js
     SERVER-->>BROWSER: spa.js
-    NOTE over BROWSER: spa.js is loaded and starts execution
-    NOTE over BROWSER: spa.js makes http request to "/exampleapp/data.json"
+    NOTE over BROWSER: spa.js starts executing makes GET request to "/exampleapp/data.json"
     BROWSER->>SERVER: GET request https://studies.cs.helsinki.fi/exampleapp/data.json
     SERVER-->>BROWSER: Returns a list [... {...}]
     NOTE over SERVER: Continue spa.js exection
@@ -20,4 +19,5 @@ sequenceDiagram
     BROWSER->>SERVER: GET https://studies.cs.helsinki.fi/favicon.ico
     SERVER-->>BROWSER: favicon.ico
 ```
-
+[Previous exercise](exercise0.4.md)
+[Next exercise](exercise0.6.md)

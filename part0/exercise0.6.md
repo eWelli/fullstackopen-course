@@ -12,3 +12,4 @@ sequenceDiagram
     SERVER-->>BROWSER: Returns json { message: "note created" }
 ```
 
+[Previous exercise](exercise0.5.md)
